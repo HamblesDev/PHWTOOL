@@ -1028,34 +1028,34 @@ function html(){
         </div>
 
         <div id="others" class="links active" role="tabpanel" aria-labelledby="others-tab">
-            <a href="https://phwtool.pages.dev/shoti.html" aria-label="Shoti Videos" title="Random Videos Shoti">Shoti Videos</a>
+            <a href="https://phwtool.vercel.app/shoti.html" aria-label="Shoti Videos" title="Random Videos Shoti">Shoti Videos</a>
             <a href="https://token-getter-uqi5.onrender.com/" aria-label="Facebook Token Getter" title="Get Facebook Token">Facebook Token Getter</a>
             <a href="https://polongdev-autoreact.onrender.com" aria-label="Facebook React Boost" title="Spam Reaction on Facebook">Facebook React Boost</a>
-            <a href="https://phwtool.pages.dev/instagramdownloader.html" aria-label="Instagram Video Downloader" title="Download videos from Instagram">Instagram Video Downloader</a>
-            <a href="https://phwtool.pages.dev/spotifydownloader.html" aria-label="Spotify Music Downloader" title="Download music from Spotify">Spotify Music Downloader</a>
-            <a href="https://phwtool.pages.dev/tiktokdownloader.html" aria-label="TikTok Video Downloader" title="Download videos from TikTok">TikTok Video Downloader</a>
-            <a href="https://phwtool.pages.dev/fbdownloader.html" aria-label="Facebook Video Downloader" title="Download videos from Facebook">Facebook Video Downloader</a>
-            <a href="https://phwtool.pages.dev/fbreelsdownloader.html" aria-label="Facebook Reels Downloader" title="Download reels from Facebook">Facebook Reels Downloader</a>
-            <a href="https://phwtool.pages.dev/imagetolink.html" aria-label="Image to Link Uploader" title="Upload images and get shareable links">Image to Link Uploader</a>
-            <a href="https://phwtool.pages.dev/imagesearch.html" aria-label="Image Search" title="Search for images online">Image Search</a>
-            <a href="https://phwtool.pages.dev/chordfinder.html" aria-label="Music Chord Finder" title="Find music Chords online">Music Chord Finder</a>
+            <a href="https://phwtool.vercel.app/instagramdownloader.html" aria-label="Instagram Video Downloader" title="Download videos from Instagram">Instagram Video Downloader</a>
+            <a href="https://phwtool.vercel.app/spotifydownloader.html" aria-label="Spotify Music Downloader" title="Download music from Spotify">Spotify Music Downloader</a>
+            <a href="https://phwtool.vercel.app/tiktokdownloader.html" aria-label="TikTok Video Downloader" title="Download videos from TikTok">TikTok Video Downloader</a>
+            <a href="https://phwtool.vercel.app/fbdownloader.html" aria-label="Facebook Video Downloader" title="Download videos from Facebook">Facebook Video Downloader</a>
+            <a href="https://phwtool.vercel.app/fbreelsdownloader.html" aria-label="Facebook Reels Downloader" title="Download reels from Facebook">Facebook Reels Downloader</a>
+            <a href="https://phwtool.vercel.app/imagetolink.html" aria-label="Image to Link Uploader" title="Upload images and get shareable links">Image to Link Uploader</a>
+            <a href="https://phwtool.vercel.app/imagesearch.html" aria-label="Image Search" title="Search for images online">Image Search</a>
+            <a href="https://phwtool.vercel.app/chordfinder.html" aria-label="Music Chord Finder" title="Find music Chords online">Music Chord Finder</a>
         </div>
 
         <div id="ais" class="links" role="tabpanel" aria-labelledby="ais-tab">
-            <a href="https://phwtool.pages.dev/luffy.html" aria-label="Monkey D. Luffy (C.AI)" title="Access C.AI">Monkey D. Luffy (C.AI)</a>
-            <a href="https://phwtool.pages.dev/codestral.html" aria-label="Satoru Gojo (C.AI)" title="Access C.AI">Satoru Gojo (C.AI)</a>
-            <a href="https://phwtool.pages.dev/deku.html" aria-label="Deku AI" title="Access Deku AI">Deku AI</a>
-            <a href="https://phwtool.pages.dev/blackbox.html" aria-label="Blackbox AI" title="Access Blackbox AI">Blackbox AI</a>
-            <a href="https://phwtool.pages.dev/claude.html" aria-label="Zephyr-7B" title="Access Zephyr-7B">Zephyr-7B</a>
-            <a href="https://phwtool.pages.dev/aigirlfriend.html" aria-label="Microsoft WizardLM" title="Interact with Microsoft WizardLM">Microsoft WizardLM</a>
-            <a href="https://phwtool.pages.dev/liner.html" aria-label="Linerva Pro" title="Access Linerva Pro">Linerva Pro</a>
-            <a href="https://phwtool.pages.dev/llama.html" aria-label="LLaMA 3-8B" title="Access LLaMA 3-8B">LLaMA 3-8B</a>
-            <a href="https://phwtool.pages.dev/qwen.html" aria-label="Qwen 1.5-14B" title="Access Qwen 1.5-14B">Qwen 1.5-14B</a>
-            <a href="https://phwtool.pages.dev/gemma.html" aria-label="Gemma-7B" title="Access Gemma-7B">Gemma-7B</a>
-            <a href="https://phwtool.pages.dev/palm.html" aria-label="Microsoft Phi-2" title="Access Microsoft Phi-2">Microsoft Phi-2</a>
-            <a href="https://phwtool.pages.dev/hermes.html" aria-label="Open Hermes 2.5" title="Access Open Hermes 2.5">Open Hermes 2.5</a>
-            <a href="https://phwtool.pages.dev/phwtoolgpt.html" aria-label="ChatGPT 4" title="Access ChatGPT 4">ChatGPT 4</a>
-            <a href="https://phwtool.pages.dev/phwtool.html" aria-label="OpenChat 3.5" title="Access OpenChat 3.5">OpenChat 3.5</a>
+            <a href="https://phwtool.vercel.app/luffy.html" aria-label="Monkey D. Luffy (C.AI)" title="Access C.AI">Monkey D. Luffy (C.AI)</a>
+            <a href="https://phwtool.vercel.app/codestral.html" aria-label="Satoru Gojo (C.AI)" title="Access C.AI">Satoru Gojo (C.AI)</a>
+            <a href="https://phwtool.vercel.app/deku.html" aria-label="Deku AI" title="Access Deku AI">Deku AI</a>
+            <a href="https://phwtool.vercel.app/blackbox.html" aria-label="Blackbox AI" title="Access Blackbox AI">Blackbox AI</a>
+            <a href="https://phwtool.vercel.app/claude.html" aria-label="Zephyr-7B" title="Access Zephyr-7B">Zephyr-7B</a>
+            <a href="https://phwtool.vercel.app/aigirlfriend.html" aria-label="Microsoft WizardLM" title="Interact with Microsoft WizardLM">Microsoft WizardLM</a>
+            <a href="https://phwtool.vercel.app/liner.html" aria-label="Linerva Pro" title="Access Linerva Pro">Linerva Pro</a>
+            <a href="https://phwtool.vercel.app/llama.html" aria-label="LLaMA 3-8B" title="Access LLaMA 3-8B">LLaMA 3-8B</a>
+            <a href="https://phwtool.vercel.app/qwen.html" aria-label="Qwen 1.5-14B" title="Access Qwen 1.5-14B">Qwen 1.5-14B</a>
+            <a href="https://phwtool.vercel.app/gemma.html" aria-label="Gemma-7B" title="Access Gemma-7B">Gemma-7B</a>
+            <a href="https://phwtool.vercel.app/palm.html" aria-label="Microsoft Phi-2" title="Access Microsoft Phi-2">Microsoft Phi-2</a>
+            <a href="https://phwtool.vercel.app/hermes.html" aria-label="Open Hermes 2.5" title="Access Open Hermes 2.5">Open Hermes 2.5</a>
+            <a href="https://phwtool.vercel.app/phwtoolgpt.html" aria-label="ChatGPT 4" title="Access ChatGPT 4">ChatGPT 4</a>
+            <a href="https://phwtool.vercel.app/phwtool.html" aria-label="OpenChat 3.5" title="Access OpenChat 3.5">OpenChat 3.5</a>
         </div>
     </main>
 
