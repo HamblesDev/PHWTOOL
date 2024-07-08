@@ -10,7 +10,7 @@ import { connect } from 'cloudflare:sockets';
 let userID = `0477e400-121c-4423-ab32-0e780e495b34`
 /* IF YOU WANT TO GENERATE UUID,
 ENTER YOUR PAGES.DEV SITE THEN ADD /uuid
-Example: https://polongdev.pages.dev/uuid */
+Example: https://phwtool.pages.dev/uuid */
 
 let proxyIP = '';
 if (!isValidUUID(userID)) {
