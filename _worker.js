@@ -628,4 +628,65 @@ async function handleUDPOutBound(webSocket, vlessResponseHeader, log) {
  * @returns {string}
  */
 function getVLESSConfig(userID, hostName) {
-  const vlessMain = `vless://${userID}\u0040${hostName}:443?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2048#neth
+  const vlessMain = `vless://${userID}\u0040${hostName}:443?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2048#neth`
+  return `${vlessMain}
+  
+- V2Ray Config -
+name: ${hostName}
+server: ${hostName}
+port: 443
+uuid: ${userID}
+network: ws
+tls: true
+udp: false
+sni: ${hostName}
+client-fingerprint: chrome
+ws-opts:
+    path: "/?ed=2048"
+    headers:
+      host: ${hostName}
+`;
+}
+
+function html(){
+  return `<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+  <meta name="keywords" content="website">
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Home" />
+  <meta name="description" content="Check if the server is okay.">
+  <meta property="og:description" content="Check if the server is okay." />
+  <title>Home</title>
+</head>
+<body style="font-family: 'Poppins'; background-color: #222222; color: #eeeeee; width: 100%; height: 100vh; align-items: center; justify-content: center;">
+<center>
+<div style="width:100%; padding: 10px; text-align: center;">
+<img width="200" height="200" src="https://i.ibb.co/kJ0Hg1t/20230624-105651.jpeg">
+<br><br>
+<audio autoplay controls loop>
+  <source src="https://files.catbox.moe/nh0xzy.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio>
+<br><br>
+<button onclick="window.location.href='/status'"><b>✅ Check Status</b></button>
+<br>
+<button onclick="window.location.href='/config'"><b>🔍 View your Config</b></button>
+<br>
+<button onclick="window.location.href='/uuid'"><b>ℹ️ UUID Generator</b></button>
+<br>
+<span style="color: white; margin: 0; padding: 0; text-decoration: none; font-size: 11px">
+Modified by Kenneth Perez
+</span>
+<br>
+<a style="color: #0061ff; text-decoration: none; font-size: 9px" href="https://github.com/zizifn/edgetunnel" target="_blank">· <b>view source code</b> ·</a>
+</div>
+</center>
+</body>
+</html>
+`;
+}
