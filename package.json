@@ -1,0 +1,16 @@
+{
+  "name": "phwtool",
+  "version": "1.0.0",
+  "description": "No description provided.",
+  "main": "_worker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "wrangler deploy _worker.js --name phwtool --compatibility-date 2024-06-28 --compatibility-flags \"nodejs_compat\""
+  },
+  "author": "Kenneth Perez",
+  "license": "ISC",
+  "dependencies": {
+    "wrangler": "^3.62.0",
+    "axios": "^1.7.2"
+  }
+}
